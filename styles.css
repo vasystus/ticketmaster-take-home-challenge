@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Averta';
+
+}
+/* button for pop up form */
+.open_form {
+    background-color: #026cdf;
+    background-image: linear-gradient(90deg,#0150a7,#026cdf,#0150a7);
+    color: white;
+    font-size: 16px;
+    padding: 8px 24px;
+    border: 2px solid transparent;
+    width: 250px;
+    text-align: center;
+    
+}
+  
+.form_popup {
+   display: none;
+   border: 2px solid #026cdf;
+}
+.form_container{
+   width: 300px;
+   padding: 10px;
+   background-color: white;
+}
+
+/* input fields */
+.form_container input[type ="tel"],.form_container input[type ="email"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* when the checkbox is selected change the color */
+.form_container input[type ="tel"]:focus,.form_container input[type ="email"]:focus{
+  background-color: #ddd;
+  border-radius: 1px;
+  outline-color: #026cdf;
+}
+
+/* submit button */
