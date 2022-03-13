@@ -32,4 +32,5 @@ The **idea of the challenge** is to break requirements into separate user storie
 I was working on user stories #1 (creating a pop up window with the contact form accessed by the "join the waiting list" button) and  #7 (submitting the empty form is not allowed).
 
 The website is live on GitHub pages. You can view it via [this link](https://vasystus.github.io/ticketmaster-take-home-challenge/)!
+
 ![Join us](https://c.tenor.com/TElqH4GKK-IAAAAC/hej-you-come-join.gif)
