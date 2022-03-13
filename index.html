@@ -18,15 +18,25 @@
             <h4 class="header">How should we contact you?</h2>
 
              <div class ="contact_by">
+                <!-- by phone -->
                <div class ="phone">
                    <input type="checkbox" name ="phone"/>
                      <div class="phone_input">
                       <label for="phone">Mobile Phone</label>
                       <p>Please include country code</p>
-                      <input type="tel" placeholder="enter your number" name="phone" required/>
+                      <input type="tel" name="phone" required/>
                      </div>
-                     
                </div>
+               <div class="line"></div>
+               <!-- by email -->
+               <div class ="email">
+                <input type="checkbox" name ="email"/>
+                  <div class="email_input">
+                   <label for="email">Email</label>
+                   <p>name.example.org</p>
+                   <input type="text" name="email" required/>
+                  </div>
+            </div>
              </div>
             <button type ="submit" class ="button">Confirm</button>
             <button type ="button" class="button close" onclick="closeContactForm()">Cancel</button>
