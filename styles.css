@@ -23,26 +23,53 @@ body {
    display: none;
    border: 2px solid #026cdf;
 }
+.header {
+  text-align: center;
+}
 .form_container{
    width: 300px;
    padding: 10px;
    background-color: white;
+   border-radius: 4px;
 }
+.contact_by {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  padding: 18px;
+  box-shadow: 1px 1px 3px 3px rgb(214 225 228 / 59%);
+}
+.phone {
+  display: flex;
+  gap: 8px;
+}
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  border-radius: 2px;
+  border-color: #808080;
+  float: left;
+}
+.phone_input {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  text-align: left;
 
+}
+p {
+  font-size: 16px;
+  color:#808080;
+  margin-top: 6px;
+  padding: 0;
+}
 /* input fields */
 .form_container input[type ="tel"],.form_container input[type ="email"] {
   width: 100%;
-  padding: 15px;
+  padding: 8px 24px;
   margin: 5px 0 22px 0;
   border: none;
   background: #f1f1f1;
-}
-
-/* when the checkbox is selected change the color */
-.form_container input[type ="tel"]:focus,.form_container input[type ="email"]:focus{
-  background-color: #ddd;
-  border-radius: 1px;
-  outline-color: #026cdf;
 }
 
 /* submit button */

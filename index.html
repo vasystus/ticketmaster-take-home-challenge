@@ -15,16 +15,19 @@
   
     <div class="form_popup" id ="open">
         <form class="form_container">
-            <h2>How should we contact you?</h2>
+            <h4 class="header">How should we contact you?</h2>
 
-            <input type ="checkbox" id="check"/>
-            <label for ="phone">Mobile Number</label><br>
-            <input type ="tel" placeholder ="Enter your number" name ="number" required><br><br>
-               
-            <input type ="checkbox" id="check"/>
-            <label for ="email">Email</label><br>
-            <input type ="email" placeholder ="Enter" name ="email" required><br><br>
-
+             <div class ="contact_by">
+               <div class ="phone">
+                   <input type="checkbox" name ="phone"/>
+                     <div class="phone_input">
+                      <label for="phone">Mobile Phone</label>
+                      <p>Please include country code</p>
+                      <input type="tel" placeholder="enter your number" name="phone" required/>
+                     </div>
+                     
+               </div>
+             </div>
             <button type ="submit" class ="button">Confirm</button>
             <button type ="button" class="button close" onclick="closeContactForm()">Cancel</button>
         </form>
