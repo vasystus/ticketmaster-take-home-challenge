@@ -1,4 +1,4 @@
-# 🎟️Ticketmaster take home challenge
+# 🎟️Ticketmaster take-home challenge
 ![Posters](https://images.unsplash.com/photo-1549499090-d7ac0cec89f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGlja2V0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60)
 
 ---
