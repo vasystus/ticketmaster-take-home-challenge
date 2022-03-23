@@ -28,6 +28,7 @@ body {
 }
 .header {
   text-align: center;
+  font-weight: 500;
 }
 .form_container{
    width: 400px;
@@ -46,7 +47,7 @@ body {
   display: flex;
   gap: 8px;
 }
-input[type="checkbox"] {
+#checkbox {
   width: 18px;
   height: 18px;
   border-radius: 2px;
@@ -73,6 +74,7 @@ p {
   margin: 5px 0 22px 0;
   border: none;
   background: #f1f1f1;
+  text-align: left;
 }
 .form_container input[type ="tel"]:focus,.form_container input[type ="text"]:focus{
   background-color: #ddd;
@@ -97,8 +99,8 @@ p {
 }
 
 .close {
-    background:#d93b3b;
-    background-image:linear-gradient(90deg,#c70a0a,#d93b3b,#c70a0a);
+    background: #d93b3b;
+    background-image: linear-gradient(90deg,#c70a0a,#d93b3b,#c70a0a);
     
 }
 
@@ -107,7 +109,6 @@ p {
     position: absolute;
     top: 50%;
     left: 35%;
-    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -118,4 +119,3 @@ height: 1px;
 background-color:#e6e4e4;
 margin-bottom: 10px;
 }
-
